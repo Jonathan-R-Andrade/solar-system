@@ -1,0 +1,18 @@
+.PlanetCard {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  min-width: 100px;
+  text-align: center;
+  width: 12.5%;
+}
+
+.PlanetCard img {
+  margin: auto;
+  width: 75%;
+}
+
+.PlanetCard:nth-of-type( 6 ) img {
+  width: 100%;
+}

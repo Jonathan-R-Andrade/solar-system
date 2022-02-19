@@ -1,0 +1,9 @@
+.Title {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 5px;
+  text-align: center;
+  width: 80%;
+}
