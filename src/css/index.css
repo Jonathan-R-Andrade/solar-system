@@ -6,10 +6,12 @@
 }
 
 body {
+  background-attachment: fixed;
   background-image: url('../images/background.png');
   background-position: center;
   background-size: contain;
   margin: auto;
   max-width: 1400px;
+  overflow-x: hidden;
   padding: 20px 0;
 }

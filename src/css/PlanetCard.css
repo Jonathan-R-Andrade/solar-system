@@ -3,6 +3,7 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  min-height: 100px;
   min-width: 100px;
   text-align: center;
   width: 12.5%;
@@ -10,9 +11,54 @@
 
 .PlanetCard img {
   margin: auto;
-  width: 75%;
 }
 
+/* Mercury */
+.PlanetCard:nth-of-type( 1 ) img {
+  width: 17.208%;
+}
+
+/* Venus */
+.PlanetCard:nth-of-type( 2 ) img {
+  width: 42.693%;
+}
+
+/* Earth */
+.PlanetCard:nth-of-type( 3 ) img {
+  width: 45%;
+}
+
+/* Mars */
+.PlanetCard:nth-of-type( 4 ) img {
+  width: 23.968%;
+}
+
+/* Jupiter */
+.PlanetCard:nth-of-type( 5 ) img {
+  width: 88.968%;
+}
+
+/* Saturn */
 .PlanetCard:nth-of-type( 6 ) img {
   width: 100%;
+}
+
+/* Uranus */
+.PlanetCard:nth-of-type( 7 ) img {
+  width: 63.601%;
+}
+
+/* Neptune */
+.PlanetCard:nth-of-type( 8 ) img {
+  width: 61.647%;
+}
+
+.PlanetCard:hover img {
+  filter: brightness(125%);
+  width: 100%;
+}
+
+/* Saturn */
+.PlanetCard:nth-of-type( 6 ):hover img {
+  transform: scale(130%);
 }
